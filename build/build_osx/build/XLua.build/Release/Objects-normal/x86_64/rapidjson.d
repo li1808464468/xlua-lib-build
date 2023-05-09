@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/source/rapidjson.cpp \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lua.hpp \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lua.h \
+  /Users/haitao.li/Downloads/xLua-master/build/build_osx/luaconf.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lualib.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lauxlib.h \
+  /Users/haitao.li/Downloads/xLua-master/build/i64lib.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/document.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/reader.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/allocators.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/rapidjson.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/stream.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/encodings.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/meta.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/../rapidjson.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/stack.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/../allocators.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/swap.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/strtod.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/ieee754.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/biginteger.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/diyfp.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/pow10.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/error/error.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/error/../rapidjson.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/strfunc.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/../stream.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/encodedstream.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/error/en.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/filereadstream.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/filewritestream.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/stringbuffer.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/writer.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/dtoa.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/internal/itoa.h \
+  /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include/rapidjson/prettywriter.h

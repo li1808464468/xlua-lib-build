@@ -1,0 +1,3 @@
+/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/xlua.dir
+/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/ALL_BUILD.dir
+/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/ZERO_CHECK.dir

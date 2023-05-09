@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A6983C53D1C480BA6AD4610 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7ACD43264EC492983DEB1ED /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				33274C9EFC495D738B99CA95 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		DDDE6FA5288E4ABFAD7BD8A7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2B0503B0CF7048EDB9B80071 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				ACBDB930E01BFB0F7C64691E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				70DA32CDF79544298C4180DC /* PBXTargetDependency */,
+				7EE624E19A6047D8861BBEBA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		043769ED04BE4CED85195CB1 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loslib.c */ = {isa = PBXBuildFile; fileRef = 40538BAE023E43CBBE2130FA /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loslib.c */; };
+		04F7CA6EE94442BDAEACE0A4 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstate.c */ = {isa = PBXBuildFile; fileRef = C9F79F8CC35D4A2F82482818 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstate.c */; };
+		080C069C80DA472F81E462E1 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lundump.c */ = {isa = PBXBuildFile; fileRef = F8581409FF2A4DDD8965B56B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lundump.c */; };
+		08ACA18BDC1F4D09B0110B7E /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lutf8lib.c */ = {isa = PBXBuildFile; fileRef = 5F1935E80A974948B8DD9F64 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lutf8lib.c */; };
+		11C0C7DF912848508558D425 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/buffer.c */ = {isa = PBXBuildFile; fileRef = A4D9BEF175484E999F2CA571 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/buffer.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		125778EEA8DB45D1813253B8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/liolib.c */ = {isa = PBXBuildFile; fileRef = E8855E25EF334D71850DEDDC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/liolib.c */; };
+		1EE7AE80D9BE4E658EE859FE /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lvm.c */ = {isa = PBXBuildFile; fileRef = 88495F3CFB1148B4B38DFAFB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lvm.c */; };
+		2BAAA20563354632A4CA263F /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/wmessage.c */ = {isa = PBXBuildFile; fileRef = D7C74D9FC8B940E49E14C2E5 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/wmessage.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		2ED0026067CD4A9A87A81103 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/except.c */ = {isa = PBXBuildFile; fileRef = BAEC5B18A5114D89AE479E21 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/except.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		2F86E36855C2441EBA324235 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/pattern.c */ = {isa = PBXBuildFile; fileRef = 70F10015BCA444BB859C9DC8 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/pattern.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		336EBC916CCB483FAA25213C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loadlib.c */ = {isa = PBXBuildFile; fileRef = D4B134616A1D4A74AD4E1385 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loadlib.c */; };
+		354E5AB6EA3D4D40AEDFB482 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcorolib.c */ = {isa = PBXBuildFile; fileRef = 1513FF8957E1405394205210 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcorolib.c */; };
+		368C5EECA59B4748888A40B7 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/options.c */ = {isa = PBXBuildFile; fileRef = A2C4DBDDE2D948A1953BC667 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/options.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		372B7E96DFD042F995DAD359 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstrlib.c */ = {isa = PBXBuildFile; fileRef = E6F66227ABA244C380ABBBDF /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstrlib.c */; };
+		38AF5BF94B3740969A1511F8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltablib.c */ = {isa = PBXBuildFile; fileRef = 16B8DDEB287145EE9A90B1F9 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltablib.c */; };
+		38D53E090A0F4A6493898963 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstring.c */ = {isa = PBXBuildFile; fileRef = C61E25C521C44CCAB8ABA913 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstring.c */; };
+		471A090F6A8C417F9131CD2F /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/stringpool.c */ = {isa = PBXBuildFile; fileRef = 2E1665779F2041FCBEEA0A22 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/stringpool.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		4EE05BD29BB34BC7AD6DD12F /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/luasocket.c */ = {isa = PBXBuildFile; fileRef = F46F1D00A0B54DA08B284C92 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/luasocket.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		4F6D69D022F0435C92ED6AD9 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/llex.c */ = {isa = PBXBuildFile; fileRef = 438342A975034F758378587C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/llex.c */; };
+		508D4ACF3A9845718287BBCD /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.c */ = {isa = PBXBuildFile; fileRef = 9B850F0D665E44DDA1914DD5 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		5097F13D294544EDB06BD834 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lopcodes.c */ = {isa = PBXBuildFile; fileRef = 8D51AE1DE1E745B290595998 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lopcodes.c */; };
+		54CC7A7E1B8B465091F58AA4 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldump.c */ = {isa = PBXBuildFile; fileRef = 4E7E495FEAC146938C6574B8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldump.c */; };
+		576CFE5582E4480DA4F0AD58 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmathlib.c */ = {isa = PBXBuildFile; fileRef = 42715381D1274CC786EB8886 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmathlib.c */; };
+		5A047B81D1AE4A409F3FAF05 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/proto.c */ = {isa = PBXBuildFile; fileRef = F9D1A3ECD5434A2DA7B6BAA7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/proto.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		5CB029D4DFED474485ACB48D /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/varint.c */ = {isa = PBXBuildFile; fileRef = 2E026A6EFB9C4B64A6287FC2 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/varint.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		60F28FD59BBC40F0A17063F6 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/register.c */ = {isa = PBXBuildFile; fileRef = F1170C0C7D6C458A9BC2D86E /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/register.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		675EF8181BFB41FA850E4E40 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldblib.c */ = {isa = PBXBuildFile; fileRef = 9DD19D5F4B1A4DDA988FE3AD /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldblib.c */; };
+		69938E8E324D4C9C8F633B34 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/linit.c */ = {isa = PBXBuildFile; fileRef = 527EC64C991941B9A3C06E1F /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/linit.c */; };
+		6BA29F4606B142A3BA50EE75 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/inet.c */ = {isa = PBXBuildFile; fileRef = 6D879FAE40784EA089D83CCE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/inet.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		6F8140489A4F4BDEBD8337DE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/io.c */ = {isa = PBXBuildFile; fileRef = 6CA4FF12667745E69D6E18FC /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/io.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		708CBF55DCA248369B78FAEF /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldebug.c */ = {isa = PBXBuildFile; fileRef = AD069A41D5A747ACAF8592A5 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldebug.c */; };
+		73B833B1452F42D6AE8AA1CC /* /Users/haitao.li/Downloads/xLua-master/build/memory_leak_checker.c */ = {isa = PBXBuildFile; fileRef = 054B9F3B61D24E2FA0130116 /* /Users/haitao.li/Downloads/xLua-master/build/memory_leak_checker.c */; };
+		76C689FF6F1B4F5CA3142241 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/binding/lua53/pbc-lua53.c */ = {isa = PBXBuildFile; fileRef = A3B83823831C4FB780A6C462 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/binding/lua53/pbc-lua53.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		7BE47ED57FA84873996C645D /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltm.c */ = {isa = PBXBuildFile; fileRef = FB9A931A7B6745E096EA2668 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltm.c */; };
+		850603169EE54320823080FE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/tcp.c */ = {isa = PBXBuildFile; fileRef = CA5CE3369D16478CA6597FD8 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/tcp.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		88D1DB0A9C724E36B545DD4E /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/alloc.c */ = {isa = PBXBuildFile; fileRef = CBE47580AEEB439EBEB7A3B7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/alloc.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		8A06EAA32F2B4E9C80334B62 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/mime.c */ = {isa = PBXBuildFile; fileRef = E8891B1029E24EECAF046162 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/mime.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		8A58E6FF6A6F4DECA8F4AEB3 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/rmessage.c */ = {isa = PBXBuildFile; fileRef = 8868CB6DE3B0477AA69D659B /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/rmessage.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		907FF6EB3923478AAC391475 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/usocket.c */ = {isa = PBXBuildFile; fileRef = 5250BA7CEC91468895842CB5 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/usocket.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		9C9883451C7349E8814DA9B6 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lzio.c */ = {isa = PBXBuildFile; fileRef = 8358FBBD4F86486B9B256310 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lzio.c */; };
+		A16BAF01E7FA4EF4BF0BD423 /* /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/source/rapidjson.cpp */ = {isa = PBXBuildFile; fileRef = 2DE47F534F7F44679F06F02C /* /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/source/rapidjson.cpp */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		A76E5870E1E142E2BEB0A6FB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbaselib.c */ = {isa = PBXBuildFile; fileRef = 0604859FF91245CEB91807CC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbaselib.c */; };
+		AA4FF30FCD4443A5A8946C1D /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/decode.c */ = {isa = PBXBuildFile; fileRef = 511E290650A8439A91E40C90 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/decode.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		B520A48DC78446E5AA36FACC /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/array.c */ = {isa = PBXBuildFile; fileRef = 714E89252DB446CCAC97A94B /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/array.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		BD2D34EEDBAB437083C9F206 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcode.c */ = {isa = PBXBuildFile; fileRef = CF8302F73CBC45D68713A07C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcode.c */; };
+		C26943CC55704A8EB474E214 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lobject.c */ = {isa = PBXBuildFile; fileRef = 1F50DB043D6144F58838F702 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lobject.c */; };
+		C54528E43A63401F925A289F /* /Users/haitao.li/Downloads/xLua-master/build/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 18B2537969DD462F85EEF5C0 /* /Users/haitao.li/Downloads/xLua-master/build/CMakeLists.txt */; };
+		C5ADB23CF82445668C535A06 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lctype.c */ = {isa = PBXBuildFile; fileRef = 32FDD894330A482AB138B603 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lctype.c */; };
+		CDB39CE84F4B43D7B2D7DE7F /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcap.c */ = {isa = PBXBuildFile; fileRef = 692A841A33F34C839D866FD7 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcap.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		CEB8F7629A7A4AA9A4DBA101 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmem.c */ = {isa = PBXBuildFile; fileRef = 72E7BBB4F23F43F1B68CEE56 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmem.c */; };
+		D0BD018B91544BB5970D9CC7 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/select.c */ = {isa = PBXBuildFile; fileRef = CE39A30DBE3B4EFA94EF411B /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/select.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		D3EE408F77844B63A415508D /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lauxlib.c */ = {isa = PBXBuildFile; fileRef = 5814C4925FCB442495D7FD20 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lauxlib.c */; };
+		D593B9EFD90E4C68B58847E0 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpprint.c */ = {isa = PBXBuildFile; fileRef = 8C82C40FE087482DB5E59702 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpprint.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		D5FE14A56A504FACA24FEAF6 /* /Users/haitao.li/Downloads/xLua-master/build/xlua.c */ = {isa = PBXBuildFile; fileRef = C28BBF61EADC464C905E8C6A /* /Users/haitao.li/Downloads/xLua-master/build/xlua.c */; };
+		D6B920BAB8E64CDF88C511CF /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcode.c */ = {isa = PBXBuildFile; fileRef = 3DA8AA711F624F6792B58F40 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcode.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		DCDD87268FF44AB6B8EF888C /* /Users/haitao.li/Downloads/xLua-master/build/pb.c */ = {isa = PBXBuildFile; fileRef = CD4CAA4062004416AE5164F5 /* /Users/haitao.li/Downloads/xLua-master/build/pb.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		E08D7FEC28AC48999E3C06AF /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lptree.c */ = {isa = PBXBuildFile; fileRef = E44B33A221414F99A3A5FECC /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lptree.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		E52594954A7047E69220B0C1 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpvm.c */ = {isa = PBXBuildFile; fileRef = C7AF7BC8CFEE47C7A16C31C8 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpvm.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		E5FF7669E0914003A873BAF6 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/context.c */ = {isa = PBXBuildFile; fileRef = 6BA92A3DDD1B4E8AAFBDE9D7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/context.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		E93A22AF4B104EE7A8671947 /* /Users/haitao.li/Downloads/xLua-master/build/pbc */ = {isa = PBXBuildFile; fileRef = E7E551FDC51F422CA90F5285 /* /Users/haitao.li/Downloads/xLua-master/build/pbc */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		E9581826AA5B49528E5E93C8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbitlib.c */ = {isa = PBXBuildFile; fileRef = BF5A3E404545406AA42E26EC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbitlib.c */; };
+		EB0655411B6F4D93999A9E02 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldo.c */ = {isa = PBXBuildFile; fileRef = 68492A6AEEA4489AA7C60DA3 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldo.c */; };
+		ED357A833E2A489EAD5A068E /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/udp.c */ = {isa = PBXBuildFile; fileRef = E67B3FCEAF09492095FD358C /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/udp.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		F3F393EE225C44F3AFDB830E /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltable.c */ = {isa = PBXBuildFile; fileRef = 693FDE33DCD6477F96E28FC3 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltable.c */; };
+		F4CAFF9D8B0F4C0193C9CF4C /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/map.c */ = {isa = PBXBuildFile; fileRef = 614741F992974AF18993BB95 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/map.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		F692CA30FB384CCBA6BA790A /* /Users/haitao.li/Downloads/xLua-master/build/i64lib.c */ = {isa = PBXBuildFile; fileRef = 8B166E8B35D94C0AB53B4E1A /* /Users/haitao.li/Downloads/xLua-master/build/i64lib.c */; };
+		F797FB16889341FE8BDB221A /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lapi.c */ = {isa = PBXBuildFile; fileRef = F077D9F267D740C4824951FB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lapi.c */; };
+		F96674DBCBE04728A1210A7B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lparser.c */ = {isa = PBXBuildFile; fileRef = 1F9AC989184B48E2AF5AFE9A /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lparser.c */; };
+		FA17844A2EB34CA492C2D28F /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/auxiliar.c */ = {isa = PBXBuildFile; fileRef = DEAB7FE50EC64D7AB82EFC95 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/auxiliar.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		FA2E63F48C074092ADDB71C2 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lgc.c */ = {isa = PBXBuildFile; fileRef = 575515E48FE847F09CE72BD2 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lgc.c */; };
+		FC2B14B7841847EA94C50F5B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lfunc.c */ = {isa = PBXBuildFile; fileRef = 45C678DBE25840EC846A8B00 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lfunc.c */; };
+		FCA66E0A595E49619F068752 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/timeout.c */ = {isa = PBXBuildFile; fileRef = 985AD3F066E3420C864500A1 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/timeout.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1D7F82A1C3644BF9B3E811B5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3364EDE71E004ABFA8DCCA46 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		395FFF25D04448A8B6179280 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		87761B5B64534A9EA1A3EDE2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		36C8833BFB2A494A8E3A5BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A34D1B2B14484EB6EB832B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6983C53D1C480BA6AD4610;
+			remoteInfo = ZERO_CHECK;
+		};
+		B05F1273CEC14F3AA8C746BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A34D1B2B14484EB6EB832B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6983C53D1C480BA6AD4610;
+			remoteInfo = ZERO_CHECK;
+		};
+		CDA7F16FF956437AA22507D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A34D1B2B14484EB6EB832B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C07077DBCF04F439676CE91;
+			remoteInfo = xlua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054B9F3B61D24E2FA0130116 /* /Users/haitao.li/Downloads/xLua-master/build/memory_leak_checker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = memory_leak_checker.c; path = memory_leak_checker.c; sourceTree = SOURCE_ROOT; };
+		0604859FF91245CEB91807CC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbaselib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lbaselib.c; path = "lua-5.3.5/src/lbaselib.c"; sourceTree = SOURCE_ROOT; };
+		1513FF8957E1405394205210 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcorolib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lcorolib.c; path = "lua-5.3.5/src/lcorolib.c"; sourceTree = SOURCE_ROOT; };
+		16B8DDEB287145EE9A90B1F9 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltablib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ltablib.c; path = "lua-5.3.5/src/ltablib.c"; sourceTree = SOURCE_ROOT; };
+		18B2537969DD462F85EEF5C0 /* /Users/haitao.li/Downloads/xLua-master/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1F50DB043D6144F58838F702 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lobject.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lobject.c; path = "lua-5.3.5/src/lobject.c"; sourceTree = SOURCE_ROOT; };
+		1F9AC989184B48E2AF5AFE9A /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lparser.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lparser.c; path = "lua-5.3.5/src/lparser.c"; sourceTree = SOURCE_ROOT; };
+		2DE47F534F7F44679F06F02C /* /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/source/rapidjson.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rapidjson.cpp; path = "lua-rapidjson/source/rapidjson.cpp"; sourceTree = SOURCE_ROOT; };
+		2E026A6EFB9C4B64A6287FC2 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/varint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = varint.c; path = pbc/src/varint.c; sourceTree = SOURCE_ROOT; };
+		2E1665779F2041FCBEEA0A22 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/stringpool.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stringpool.c; path = pbc/src/stringpool.c; sourceTree = SOURCE_ROOT; };
+		32FDD894330A482AB138B603 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lctype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lctype.c; path = "lua-5.3.5/src/lctype.c"; sourceTree = SOURCE_ROOT; };
+		3DA8AA711F624F6792B58F40 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpcode.c; path = lpeg/lpcode.c; sourceTree = SOURCE_ROOT; };
+		40538BAE023E43CBBE2130FA /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loslib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = loslib.c; path = "lua-5.3.5/src/loslib.c"; sourceTree = SOURCE_ROOT; };
+		42715381D1274CC786EB8886 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmathlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lmathlib.c; path = "lua-5.3.5/src/lmathlib.c"; sourceTree = SOURCE_ROOT; };
+		438342A975034F758378587C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/llex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = llex.c; path = "lua-5.3.5/src/llex.c"; sourceTree = SOURCE_ROOT; };
+		45C678DBE25840EC846A8B00 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lfunc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lfunc.c; path = "lua-5.3.5/src/lfunc.c"; sourceTree = SOURCE_ROOT; };
+		4E7E495FEAC146938C6574B8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldump.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldump.c; path = "lua-5.3.5/src/ldump.c"; sourceTree = SOURCE_ROOT; };
+		511E290650A8439A91E40C90 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/decode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decode.c; path = pbc/src/decode.c; sourceTree = SOURCE_ROOT; };
+		5250BA7CEC91468895842CB5 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/usocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = usocket.c; path = luasocket/usocket.c; sourceTree = SOURCE_ROOT; };
+		527EC64C991941B9A3C06E1F /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/linit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = linit.c; path = "lua-5.3.5/src/linit.c"; sourceTree = SOURCE_ROOT; };
+		575515E48FE847F09CE72BD2 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lgc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lgc.c; path = "lua-5.3.5/src/lgc.c"; sourceTree = SOURCE_ROOT; };
+		5814C4925FCB442495D7FD20 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lauxlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lauxlib.c; path = "lua-5.3.5/src/lauxlib.c"; sourceTree = SOURCE_ROOT; };
+		5F1935E80A974948B8DD9F64 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lutf8lib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lutf8lib.c; path = "lua-5.3.5/src/lutf8lib.c"; sourceTree = SOURCE_ROOT; };
+		614741F992974AF18993BB95 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/map.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = map.c; path = pbc/src/map.c; sourceTree = SOURCE_ROOT; };
+		68492A6AEEA4489AA7C60DA3 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldo.c; path = "lua-5.3.5/src/ldo.c"; sourceTree = SOURCE_ROOT; };
+		692A841A33F34C839D866FD7 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpcap.c; path = lpeg/lpcap.c; sourceTree = SOURCE_ROOT; };
+		693FDE33DCD6477F96E28FC3 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ltable.c; path = "lua-5.3.5/src/ltable.c"; sourceTree = SOURCE_ROOT; };
+		6BA92A3DDD1B4E8AAFBDE9D7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = pbc/src/context.c; sourceTree = SOURCE_ROOT; };
+		6CA4FF12667745E69D6E18FC /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = luasocket/io.c; sourceTree = SOURCE_ROOT; };
+		6D879FAE40784EA089D83CCE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/inet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inet.c; path = luasocket/inet.c; sourceTree = SOURCE_ROOT; };
+		70F10015BCA444BB859C9DC8 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/pattern.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pattern.c; path = pbc/src/pattern.c; sourceTree = SOURCE_ROOT; };
+		714E89252DB446CCAC97A94B /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/array.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = array.c; path = pbc/src/array.c; sourceTree = SOURCE_ROOT; };
+		72E7BBB4F23F43F1B68CEE56 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lmem.c; path = "lua-5.3.5/src/lmem.c"; sourceTree = SOURCE_ROOT; };
+		8358FBBD4F86486B9B256310 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lzio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lzio.c; path = "lua-5.3.5/src/lzio.c"; sourceTree = SOURCE_ROOT; };
+		88495F3CFB1148B4B38DFAFB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lvm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lvm.c; path = "lua-5.3.5/src/lvm.c"; sourceTree = SOURCE_ROOT; };
+		8868CB6DE3B0477AA69D659B /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/rmessage.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rmessage.c; path = pbc/src/rmessage.c; sourceTree = SOURCE_ROOT; };
+		8B166E8B35D94C0AB53B4E1A /* /Users/haitao.li/Downloads/xLua-master/build/i64lib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = i64lib.c; path = i64lib.c; sourceTree = SOURCE_ROOT; };
+		8C82C40FE087482DB5E59702 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpprint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpprint.c; path = lpeg/lpprint.c; sourceTree = SOURCE_ROOT; };
+		8D51AE1DE1E745B290595998 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lopcodes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lopcodes.c; path = "lua-5.3.5/src/lopcodes.c"; sourceTree = SOURCE_ROOT; };
+		985AD3F066E3420C864500A1 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/timeout.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timeout.c; path = luasocket/timeout.c; sourceTree = SOURCE_ROOT; };
+		9B850F0D665E44DDA1914DD5 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bootstrap.c; path = pbc/src/bootstrap.c; sourceTree = SOURCE_ROOT; };
+		9DD19D5F4B1A4DDA988FE3AD /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldblib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldblib.c; path = "lua-5.3.5/src/ldblib.c"; sourceTree = SOURCE_ROOT; };
+		A2C4DBDDE2D948A1953BC667 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = options.c; path = luasocket/options.c; sourceTree = SOURCE_ROOT; };
+		A3B83823831C4FB780A6C462 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/binding/lua53/pbc-lua53.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "pbc-lua53.c"; path = "pbc/binding/lua53/pbc-lua53.c"; sourceTree = SOURCE_ROOT; };
+		A4D9BEF175484E999F2CA571 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/buffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer.c; path = luasocket/buffer.c; sourceTree = SOURCE_ROOT; };
+		AD069A41D5A747ACAF8592A5 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldebug.c; path = "lua-5.3.5/src/ldebug.c"; sourceTree = SOURCE_ROOT; };
+		BAEC5B18A5114D89AE479E21 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/except.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = except.c; path = luasocket/except.c; sourceTree = SOURCE_ROOT; };
+		BF5A3E404545406AA42E26EC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbitlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lbitlib.c; path = "lua-5.3.5/src/lbitlib.c"; sourceTree = SOURCE_ROOT; };
+		C28BBF61EADC464C905E8C6A /* /Users/haitao.li/Downloads/xLua-master/build/xlua.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xlua.c; path = xlua.c; sourceTree = SOURCE_ROOT; };
+		C61E25C521C44CCAB8ABA913 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstring.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lstring.c; path = "lua-5.3.5/src/lstring.c"; sourceTree = SOURCE_ROOT; };
+		C7AF7BC8CFEE47C7A16C31C8 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpvm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpvm.c; path = lpeg/lpvm.c; sourceTree = SOURCE_ROOT; };
+		C9F79F8CC35D4A2F82482818 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lstate.c; path = "lua-5.3.5/src/lstate.c"; sourceTree = SOURCE_ROOT; };
+		CA5CE3369D16478CA6597FD8 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/tcp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tcp.c; path = luasocket/tcp.c; sourceTree = SOURCE_ROOT; };
+		CBE47580AEEB439EBEB7A3B7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/alloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alloc.c; path = pbc/src/alloc.c; sourceTree = SOURCE_ROOT; };
+		CD4CAA4062004416AE5164F5 /* /Users/haitao.li/Downloads/xLua-master/build/pb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pb.c; path = pb.c; sourceTree = SOURCE_ROOT; };
+		CE39A30DBE3B4EFA94EF411B /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/select.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = select.c; path = luasocket/select.c; sourceTree = SOURCE_ROOT; };
+		CF8302F73CBC45D68713A07C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lcode.c; path = "lua-5.3.5/src/lcode.c"; sourceTree = SOURCE_ROOT; };
+		D4B134616A1D4A74AD4E1385 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loadlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = loadlib.c; path = "lua-5.3.5/src/loadlib.c"; sourceTree = SOURCE_ROOT; };
+		D7C74D9FC8B940E49E14C2E5 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/wmessage.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = wmessage.c; path = pbc/src/wmessage.c; sourceTree = SOURCE_ROOT; };
+		DEAB7FE50EC64D7AB82EFC95 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/auxiliar.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = auxiliar.c; path = luasocket/auxiliar.c; sourceTree = SOURCE_ROOT; };
+		E44B33A221414F99A3A5FECC /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lptree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lptree.c; path = lpeg/lptree.c; sourceTree = SOURCE_ROOT; };
+		E67B3FCEAF09492095FD358C /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/udp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udp.c; path = luasocket/udp.c; sourceTree = SOURCE_ROOT; };
+		E6F66227ABA244C380ABBBDF /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstrlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lstrlib.c; path = "lua-5.3.5/src/lstrlib.c"; sourceTree = SOURCE_ROOT; };
+		E7E551FDC51F422CA90F5285 /* /Users/haitao.li/Downloads/xLua-master/build/pbc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = pbc; path = pbc; sourceTree = SOURCE_ROOT; };
+		E8855E25EF334D71850DEDDC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/liolib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = liolib.c; path = "lua-5.3.5/src/liolib.c"; sourceTree = SOURCE_ROOT; };
+		E8891B1029E24EECAF046162 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/mime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mime.c; path = luasocket/mime.c; sourceTree = SOURCE_ROOT; };
+		E97EDB5EBAC4489BA2952F66 /* /Users/haitao.li/Downloads/xLua-master/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F077D9F267D740C4824951FB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lapi.c; path = "lua-5.3.5/src/lapi.c"; sourceTree = SOURCE_ROOT; };
+		F07A9B5DCC204778BF74119C /* xlua */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = xlua.bundle/Contents/MacOS/xlua; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1170C0C7D6C458A9BC2D86E /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/register.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = register.c; path = pbc/src/register.c; sourceTree = SOURCE_ROOT; };
+		F46F1D00A0B54DA08B284C92 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/luasocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket.c; path = luasocket/luasocket.c; sourceTree = SOURCE_ROOT; };
+		F8581409FF2A4DDD8965B56B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lundump.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lundump.c; path = "lua-5.3.5/src/lundump.c"; sourceTree = SOURCE_ROOT; };
+		F9D1A3ECD5434A2DA7B6BAA7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/proto.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = proto.c; path = pbc/src/proto.c; sourceTree = SOURCE_ROOT; };
+		FB9A931A7B6745E096EA2668 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ltm.c; path = "lua-5.3.5/src/ltm.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F1321D61134A5C8762748A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA58C6CB37A45E18D648461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07A9B5DCC204778BF74119C /* xlua */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BD0EE647F244DC1A2DCB7F1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F077D9F267D740C4824951FB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lapi.c */,
+				5814C4925FCB442495D7FD20 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lauxlib.c */,
+				0604859FF91245CEB91807CC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbaselib.c */,
+				BF5A3E404545406AA42E26EC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbitlib.c */,
+				CF8302F73CBC45D68713A07C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcode.c */,
+				1513FF8957E1405394205210 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcorolib.c */,
+				32FDD894330A482AB138B603 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lctype.c */,
+				9DD19D5F4B1A4DDA988FE3AD /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldblib.c */,
+				AD069A41D5A747ACAF8592A5 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldebug.c */,
+				68492A6AEEA4489AA7C60DA3 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldo.c */,
+				4E7E495FEAC146938C6574B8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldump.c */,
+				45C678DBE25840EC846A8B00 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lfunc.c */,
+				575515E48FE847F09CE72BD2 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lgc.c */,
+				527EC64C991941B9A3C06E1F /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/linit.c */,
+				E8855E25EF334D71850DEDDC /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/liolib.c */,
+				438342A975034F758378587C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/llex.c */,
+				42715381D1274CC786EB8886 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmathlib.c */,
+				72E7BBB4F23F43F1B68CEE56 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmem.c */,
+				D4B134616A1D4A74AD4E1385 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loadlib.c */,
+				1F50DB043D6144F58838F702 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lobject.c */,
+				8D51AE1DE1E745B290595998 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lopcodes.c */,
+				40538BAE023E43CBBE2130FA /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loslib.c */,
+				1F9AC989184B48E2AF5AFE9A /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lparser.c */,
+				C9F79F8CC35D4A2F82482818 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstate.c */,
+				C61E25C521C44CCAB8ABA913 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstring.c */,
+				E6F66227ABA244C380ABBBDF /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstrlib.c */,
+				693FDE33DCD6477F96E28FC3 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltable.c */,
+				16B8DDEB287145EE9A90B1F9 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltablib.c */,
+				FB9A931A7B6745E096EA2668 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltm.c */,
+				F8581409FF2A4DDD8965B56B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lundump.c */,
+				5F1935E80A974948B8DD9F64 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lutf8lib.c */,
+				88495F3CFB1148B4B38DFAFB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lvm.c */,
+				8358FBBD4F86486B9B256310 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lzio.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		20445AD87CAC4FAE91C7657C /* xlua */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5F2D8008A4815A3DDEE2B /* lua-5.3.5 */,
+				27184F119CA64D0A965FB816 /* luasocket */,
+				8E49B9F70809405DBDF43855 /* Source Files */,
+				18B2537969DD462F85EEF5C0 /* /Users/haitao.li/Downloads/xLua-master/build/CMakeLists.txt */,
+				8B166E8B35D94C0AB53B4E1A /* /Users/haitao.li/Downloads/xLua-master/build/i64lib.c */,
+				054B9F3B61D24E2FA0130116 /* /Users/haitao.li/Downloads/xLua-master/build/memory_leak_checker.c */,
+				E7E551FDC51F422CA90F5285 /* /Users/haitao.li/Downloads/xLua-master/build/pbc */,
+				C28BBF61EADC464C905E8C6A /* /Users/haitao.li/Downloads/xLua-master/build/xlua.c */,
+			);
+			name = xlua;
+			sourceTree = "<group>";
+		};
+		27184F119CA64D0A965FB816 /* luasocket */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB7FE50EC64D7AB82EFC95 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/auxiliar.c */,
+				A4D9BEF175484E999F2CA571 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/buffer.c */,
+				BAEC5B18A5114D89AE479E21 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/except.c */,
+				6D879FAE40784EA089D83CCE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/inet.c */,
+				6CA4FF12667745E69D6E18FC /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/io.c */,
+				F46F1D00A0B54DA08B284C92 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/luasocket.c */,
+				E8891B1029E24EECAF046162 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/mime.c */,
+				A2C4DBDDE2D948A1953BC667 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/options.c */,
+				CE39A30DBE3B4EFA94EF411B /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/select.c */,
+				CA5CE3369D16478CA6597FD8 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/tcp.c */,
+				985AD3F066E3420C864500A1 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/timeout.c */,
+				E67B3FCEAF09492095FD358C /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/udp.c */,
+				5250BA7CEC91468895842CB5 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/usocket.c */,
+			);
+			name = luasocket;
+			sourceTree = "<group>";
+		};
+		293FEC4A3F7E4F378BCAFDD0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B25E3B0A3BCE44BE83DDF0D6 /* CMake Rules */,
+				E97EDB5EBAC4489BA2952F66 /* /Users/haitao.li/Downloads/xLua-master/build/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		37C93AD98E78496FB4A3707E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AB5F2D8008A4815A3DDEE2B /* lua-5.3.5 */ = {
+			isa = PBXGroup;
+			children = (
+				0BD0EE647F244DC1A2DCB7F1 /* src */,
+			);
+			name = "lua-5.3.5";
+			sourceTree = "<group>";
+		};
+		8E49B9F70809405DBDF43855 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				692A841A33F34C839D866FD7 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcap.c */,
+				3DA8AA711F624F6792B58F40 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcode.c */,
+				8C82C40FE087482DB5E59702 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpprint.c */,
+				E44B33A221414F99A3A5FECC /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lptree.c */,
+				C7AF7BC8CFEE47C7A16C31C8 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpvm.c */,
+				2DE47F534F7F44679F06F02C /* /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/source/rapidjson.cpp */,
+				CD4CAA4062004416AE5164F5 /* /Users/haitao.li/Downloads/xLua-master/build/pb.c */,
+				A3B83823831C4FB780A6C462 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/binding/lua53/pbc-lua53.c */,
+				CBE47580AEEB439EBEB7A3B7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/alloc.c */,
+				714E89252DB446CCAC97A94B /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/array.c */,
+				9B850F0D665E44DDA1914DD5 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.c */,
+				6BA92A3DDD1B4E8AAFBDE9D7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/context.c */,
+				511E290650A8439A91E40C90 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/decode.c */,
+				614741F992974AF18993BB95 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/map.c */,
+				70F10015BCA444BB859C9DC8 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/pattern.c */,
+				F9D1A3ECD5434A2DA7B6BAA7 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/proto.c */,
+				F1170C0C7D6C458A9BC2D86E /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/register.c */,
+				8868CB6DE3B0477AA69D659B /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/rmessage.c */,
+				2E1665779F2041FCBEEA0A22 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/stringpool.c */,
+				2E026A6EFB9C4B64A6287FC2 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/varint.c */,
+				D7C74D9FC8B940E49E14C2E5 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/wmessage.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B25E3B0A3BCE44BE83DDF0D6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FDC8E3399EBA42F98DDDC0FA = {
+			isa = PBXGroup;
+			children = (
+				20445AD87CAC4FAE91C7657C /* xlua */,
+				293FEC4A3F7E4F378BCAFDD0 /* ALL_BUILD */,
+				0BA58C6CB37A45E18D648461 /* Products */,
+				37C93AD98E78496FB4A3707E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C07077DBCF04F439676CE91 /* xlua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FED7A0C923944BFBA23AE7F /* Build configuration list for PBXNativeTarget "xlua" */;
+			buildPhases = (
+				C0BB984E5DCF4BC3B68195CD /* Sources */,
+				44F1321D61134A5C8762748A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CBED4212204395BE89785C /* PBXTargetDependency */,
+			);
+			name = xlua;
+			productName = xlua;
+			productReference = F07A9B5DCC204778BF74119C /* xlua */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A34D1B2B14484EB6EB832B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 6921651F83DB45C9A6C3F12F /* Build configuration list for PBXProject "XLua" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				87761B5B64534A9EA1A3EDE2 /* Debug */,
+				1D7F82A1C3644BF9B3E811B5 /* Release */,
+				3364EDE71E004ABFA8DCCA46 /* MinSizeRel */,
+				395FFF25D04448A8B6179280 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FDC8E3399EBA42F98DDDC0FA;
+			projectDirPath = "/Users/haitao.li/Downloads/xLua-master/build";
+			projectRoot = "";
+			targets = (
+				DDDE6FA5288E4ABFAD7BD8A7 /* ALL_BUILD */,
+				1A6983C53D1C480BA6AD4610 /* ZERO_CHECK */,
+				1C07077DBCF04F439676CE91 /* xlua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33274C9EFC495D738B99CA95 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  make -f /Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  make -f /Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  make -f /Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  make -f /Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ACBDB930E01BFB0F7C64691E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/haitao.li/Downloads/xLua-master/build/build_osx
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BB984E5DCF4BC3B68195CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F692CA30FB384CCBA6BA790A /* /Users/haitao.li/Downloads/xLua-master/build/i64lib.c */,
+				CDB39CE84F4B43D7B2D7DE7F /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcap.c */,
+				D6B920BAB8E64CDF88C511CF /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpcode.c */,
+				D593B9EFD90E4C68B58847E0 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpprint.c */,
+				E08D7FEC28AC48999E3C06AF /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lptree.c */,
+				E52594954A7047E69220B0C1 /* /Users/haitao.li/Downloads/xLua-master/build/lpeg/lpvm.c */,
+				F797FB16889341FE8BDB221A /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lapi.c */,
+				D3EE408F77844B63A415508D /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lauxlib.c */,
+				A76E5870E1E142E2BEB0A6FB /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbaselib.c */,
+				E9581826AA5B49528E5E93C8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lbitlib.c */,
+				BD2D34EEDBAB437083C9F206 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcode.c */,
+				354E5AB6EA3D4D40AEDFB482 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lcorolib.c */,
+				C5ADB23CF82445668C535A06 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lctype.c */,
+				675EF8181BFB41FA850E4E40 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldblib.c */,
+				708CBF55DCA248369B78FAEF /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldebug.c */,
+				EB0655411B6F4D93999A9E02 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldo.c */,
+				54CC7A7E1B8B465091F58AA4 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ldump.c */,
+				FC2B14B7841847EA94C50F5B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lfunc.c */,
+				FA2E63F48C074092ADDB71C2 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lgc.c */,
+				69938E8E324D4C9C8F633B34 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/linit.c */,
+				125778EEA8DB45D1813253B8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/liolib.c */,
+				4F6D69D022F0435C92ED6AD9 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/llex.c */,
+				576CFE5582E4480DA4F0AD58 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmathlib.c */,
+				CEB8F7629A7A4AA9A4DBA101 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lmem.c */,
+				336EBC916CCB483FAA25213C /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loadlib.c */,
+				C26943CC55704A8EB474E214 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lobject.c */,
+				5097F13D294544EDB06BD834 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lopcodes.c */,
+				043769ED04BE4CED85195CB1 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/loslib.c */,
+				F96674DBCBE04728A1210A7B /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lparser.c */,
+				04F7CA6EE94442BDAEACE0A4 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstate.c */,
+				38D53E090A0F4A6493898963 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstring.c */,
+				372B7E96DFD042F995DAD359 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lstrlib.c */,
+				F3F393EE225C44F3AFDB830E /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltable.c */,
+				38AF5BF94B3740969A1511F8 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltablib.c */,
+				7BE47ED57FA84873996C645D /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/ltm.c */,
+				080C069C80DA472F81E462E1 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lundump.c */,
+				08ACA18BDC1F4D09B0110B7E /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lutf8lib.c */,
+				1EE7AE80D9BE4E658EE859FE /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lvm.c */,
+				9C9883451C7349E8814DA9B6 /* /Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src/lzio.c */,
+				A16BAF01E7FA4EF4BF0BD423 /* /Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/source/rapidjson.cpp */,
+				FA17844A2EB34CA492C2D28F /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/auxiliar.c */,
+				11C0C7DF912848508558D425 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/buffer.c */,
+				2ED0026067CD4A9A87A81103 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/except.c */,
+				6BA29F4606B142A3BA50EE75 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/inet.c */,
+				6F8140489A4F4BDEBD8337DE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/io.c */,
+				4EE05BD29BB34BC7AD6DD12F /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/luasocket.c */,
+				8A06EAA32F2B4E9C80334B62 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/mime.c */,
+				368C5EECA59B4748888A40B7 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/options.c */,
+				D0BD018B91544BB5970D9CC7 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/select.c */,
+				850603169EE54320823080FE /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/tcp.c */,
+				FCA66E0A595E49619F068752 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/timeout.c */,
+				ED357A833E2A489EAD5A068E /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/udp.c */,
+				907FF6EB3923478AAC391475 /* /Users/haitao.li/Downloads/xLua-master/build/luasocket/usocket.c */,
+				73B833B1452F42D6AE8AA1CC /* /Users/haitao.li/Downloads/xLua-master/build/memory_leak_checker.c */,
+				DCDD87268FF44AB6B8EF888C /* /Users/haitao.li/Downloads/xLua-master/build/pb.c */,
+				76C689FF6F1B4F5CA3142241 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/binding/lua53/pbc-lua53.c */,
+				88D1DB0A9C724E36B545DD4E /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/alloc.c */,
+				B520A48DC78446E5AA36FACC /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/array.c */,
+				508D4ACF3A9845718287BBCD /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.c */,
+				E5FF7669E0914003A873BAF6 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/context.c */,
+				AA4FF30FCD4443A5A8946C1D /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/decode.c */,
+				F4CAFF9D8B0F4C0193C9CF4C /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/map.c */,
+				2F86E36855C2441EBA324235 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/pattern.c */,
+				5A047B81D1AE4A409F3FAF05 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/proto.c */,
+				60F28FD59BBC40F0A17063F6 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/register.c */,
+				8A58E6FF6A6F4DECA8F4AEB3 /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/rmessage.c */,
+				471A090F6A8C417F9131CD2F /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/stringpool.c */,
+				5CB029D4DFED474485ACB48D /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/varint.c */,
+				2BAAA20563354632A4CA263F /* /Users/haitao.li/Downloads/xLua-master/build/pbc/src/wmessage.c */,
+				D5FE14A56A504FACA24FEAF6 /* /Users/haitao.li/Downloads/xLua-master/build/xlua.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DA32CDF79544298C4180DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C07077DBCF04F439676CE91 /* xlua */;
+			targetProxy = CDA7F16FF956437AA22507D5 /* PBXContainerItemProxy */;
+		};
+		7EE624E19A6047D8861BBEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6983C53D1C480BA6AD4610 /* ZERO_CHECK */;
+			targetProxy = B05F1273CEC14F3AA8C746BB /* PBXContainerItemProxy */;
+		};
+		A7CBED4212204395BE89785C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6983C53D1C480BA6AD4610 /* ZERO_CHECK */;
+			targetProxy = 36C8833BFB2A494A8E3A5BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FD0D0750C3417FB8F11743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build";
+			};
+			name = Debug;
+		};
+		0C00E67F483441C18049AE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0D05F8AF1F42466F879863B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlua_EXPORTS,LUA_USE_MACOSX,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/haitao.li/Downloads/xLua-master/build","/Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src","/Users/haitao.li/Downloads/xLua-master/build/build_osx","/Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include","/Users/haitao.li/Downloads/xLua-master/build/pbc","/Users/haitao.li/Downloads/xLua-master/build/pbc/src","/Users/haitao.li/Downloads/xLua-master/build/lpeg","$(inherited)");
+				INFOPLIST_FILE = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/xlua.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC ";
+				OTHER_LDFLAGS = (" -bundle -Wl,-headerpad_max_install_names","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build/xlua.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1A3CF8A50C414A0E85B23B40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2347BFF8B9164E07B571988F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		334216039F6E4DE5BB4A59BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build";
+			};
+			name = MinSizeRel;
+		};
+		4988CA4D575B4600A0C73D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6750E43BCA064366AE255ED2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlua_EXPORTS,LUA_USE_MACOSX,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/haitao.li/Downloads/xLua-master/build","/Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src","/Users/haitao.li/Downloads/xLua-master/build/build_osx","/Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include","/Users/haitao.li/Downloads/xLua-master/build/pbc","/Users/haitao.li/Downloads/xLua-master/build/pbc/src","/Users/haitao.li/Downloads/xLua-master/build/lpeg","$(inherited)");
+				INFOPLIST_FILE = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/xlua.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC ";
+				OTHER_LDFLAGS = (" -bundle -Wl,-headerpad_max_install_names","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build/xlua.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		72C382F8032B4FA2A093458B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlua_EXPORTS,LUA_USE_MACOSX,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/haitao.li/Downloads/xLua-master/build","/Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src","/Users/haitao.li/Downloads/xLua-master/build/build_osx","/Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include","/Users/haitao.li/Downloads/xLua-master/build/pbc","/Users/haitao.li/Downloads/xLua-master/build/pbc/src","/Users/haitao.li/Downloads/xLua-master/build/lpeg","$(inherited)");
+				INFOPLIST_FILE = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/xlua.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC ";
+				OTHER_LDFLAGS = (" -bundle -Wl,-headerpad_max_install_names","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build/xlua.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		804D659A3E394B5B901DD6B6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A2ECB9D62E51401DABA29CCC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A7698962B18A46388AD85C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C1D3F5C01FD84282943901AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlua_EXPORTS,LUA_USE_MACOSX,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/haitao.li/Downloads/xLua-master/build","/Users/haitao.li/Downloads/xLua-master/build/lua-5.3.5/src","/Users/haitao.li/Downloads/xLua-master/build/build_osx","/Users/haitao.li/Downloads/xLua-master/build/lua-rapidjson/include","/Users/haitao.li/Downloads/xLua-master/build/pbc","/Users/haitao.li/Downloads/xLua-master/build/pbc/src","/Users/haitao.li/Downloads/xLua-master/build/lpeg","$(inherited)");
+				INFOPLIST_FILE = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/CMakeFiles/xlua.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC ";
+				OTHER_LDFLAGS = (" -bundle -Wl,-headerpad_max_install_names","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build/xlua.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D1BF3B4DDFA642D69777F6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/haitao.li/Downloads/xLua-master/build/build_osx/build";
+			};
+			name = Release;
+		};
+		DAE0309DFF1B4ED28FFA3886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F793476343F647F8B00DAFC6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0503B0CF7048EDB9B80071 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4988CA4D575B4600A0C73D20 /* Debug */,
+				A7698962B18A46388AD85C67 /* Release */,
+				1A3CF8A50C414A0E85B23B40 /* MinSizeRel */,
+				2347BFF8B9164E07B571988F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FED7A0C923944BFBA23AE7F /* Build configuration list for PBXNativeTarget "xlua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C382F8032B4FA2A093458B /* Debug */,
+				C1D3F5C01FD84282943901AB /* Release */,
+				0D05F8AF1F42466F879863B9 /* MinSizeRel */,
+				6750E43BCA064366AE255ED2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6921651F83DB45C9A6C3F12F /* Build configuration list for PBXProject "XLua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FD0D0750C3417FB8F11743 /* Debug */,
+				D1BF3B4DDFA642D69777F6AD /* Release */,
+				334216039F6E4DE5BB4A59BB /* MinSizeRel */,
+				804D659A3E394B5B901DD6B6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7ACD43264EC492983DEB1ED /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE0309DFF1B4ED28FFA3886 /* Debug */,
+				0C00E67F483441C18049AE79 /* Release */,
+				A2ECB9D62E51401DABA29CCC /* MinSizeRel */,
+				F793476343F647F8B00DAFC6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A34D1B2B14484EB6EB832B /* Project object */;
+}

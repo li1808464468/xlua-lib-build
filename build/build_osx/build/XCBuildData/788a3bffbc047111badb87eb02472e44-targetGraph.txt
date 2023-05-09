@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in XLua
+xlua in XLua, depends on:
+ZERO_CHECK in XLua (explicit)
+ALL_BUILD in XLua, depends on:
+ZERO_CHECK in XLua (explicit)
+xlua in XLua (explicit)

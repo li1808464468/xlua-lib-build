@@ -1,0 +1,13 @@
+dependencies: \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.c \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/pbc.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/map.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/alloc.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/context.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/array.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/varint.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/pattern.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/proto.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/bootstrap.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/stringpool.h \
+  /Users/haitao.li/Downloads/xLua-master/build/pbc/src/descriptor.pbc.h
